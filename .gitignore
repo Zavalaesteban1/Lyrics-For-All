@@ -1,0 +1,29 @@
+# Virtual Environment
+virt/
+/virt
+*.pyc
+
+# Next.js
+mainFolder/frontend/.next/
+mainFolder/frontend/node_modules/
+mainFolder/frontend/.env*.local
+mainFolder/frontend/npm-debug.log*
+mainFolder/frontend/yarn-debug.log*
+mainFolder/frontend/yarn-error.log*
+
+# Django
+mainFolder/backend/__pycache__/
+mainFolder/backend/*.pyc
+mainFolder/backend/db.sqlite3
+mainFolder/backend/.env
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
